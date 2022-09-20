@@ -1,7 +1,7 @@
 # example netlify.toml
 [build]
   command = "pip install -r requirements.txt && make html"
-  publish = "_build/html"
+  publish = "build/html"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
