@@ -18,7 +18,7 @@ e ambienti CI/CD, anche se funziona in ogni ambiente.
 
 ..  toctree::
         :titlesonly:
-        :maxdepth: 2
+        :maxdepth: 1
 
         requisiti
         uso
