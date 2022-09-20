@@ -17,8 +17,9 @@ containers <https://docs.github.com/en/codespaces/setting-up-your-project-for-co
 e ambienti CI/CD, anche se funziona in ogni ambiente.
 
 ..  toctree::
-        :glob:
+        :hidden:
         :titlesonly:
+        :maxdepth: 2
 
         requisiti
         uso
