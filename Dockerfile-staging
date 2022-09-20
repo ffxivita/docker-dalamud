@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine@sha256:ed94db9b569b9315978fd54a7cb5f95f23229746493d91dc5c5d122d0fcfe368
+FROM mcr.microsoft.com/dotnet/sdk:7.0-alpine@sha256:35a2466e5e86f94bfe95efb9c10012edd970de74fa15c668d61fade809e89f35
 
 # Installa Dalamud dalla ultima release stable
 ENV DALAMUD_HOME=/lib/dalamud
