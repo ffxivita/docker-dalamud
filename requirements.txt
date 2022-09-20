@@ -1,4 +1,4 @@
 sphinx
 sphinx-intl
 myst_parser
-sphinx-ahd-theme==5.3.7
+sphinx-ahd-theme
