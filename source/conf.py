@@ -26,3 +26,8 @@ language = 'it'
 
 html_theme = 'sphinx_ahd_theme'
 html_static_path = ['_static']
+html_theme_options = dict(
+    project_name="XIVITA Dalamud Docker",
+    logo_alt="FFXIVITA",
+    logo_url="/"
+)
