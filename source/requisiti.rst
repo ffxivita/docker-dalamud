@@ -1,4 +1,6 @@
 .. highlight:: xml
+.. index:: Requisiti
+.. _Requisiti
 
 ================
 Requisiti
