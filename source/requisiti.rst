@@ -1,7 +1,8 @@
 .. highlight:: xml
 
-Pre-Requisiti
--------------
+================
+Requisiti
+================
 
 Per compilare il vostro progetto che ha Dalamud dentro ad un container,
 dovete perforza usare ``DalamudLibPath`` e avere il seguente snippet di
