@@ -20,4 +20,6 @@ e ambienti CI/CD, anche se funziona in ogni ambiente.
         :glob:
         :titlesonly:
 
-        *
+        requisiti
+        uso
+        updates
