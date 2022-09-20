@@ -11,16 +11,13 @@ Ecco una implementazione usata in uno dei plugin sviluppati da noi.
             <DalamudLibPath>$(appdata)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
             <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
         </PropertyGroup>
-
         <PropertyGroup Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))'">
             <DalamudLibPath>$(DALAMUD_HOME)/</DalamudLibPath>
             <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
         </PropertyGroup>
-
         <PropertyGroup Condition="'$(IsCI)' == 'true'">
             <DalamudLibPath>Dalamud</DalamudLibPath>
         </PropertyGroup>
-
         <ItemGroup>
             <Reference Include="FFXIVClientStructs">
                 <HintPath>$(DalamudLibPath)FFXIVClientStructs.dll</HintPath>
