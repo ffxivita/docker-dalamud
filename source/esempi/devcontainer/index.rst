@@ -10,3 +10,4 @@ I `Dev Container <https://code.visualstudio.com/docs/remote/containers>`_ sono u
 
         code/dockerfile.md
         code/devcontainerjson
+        code/csproj
