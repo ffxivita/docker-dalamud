@@ -35,5 +35,6 @@ html_theme_options = dict(
         "Lista Plugin|https://ffxivita.github.io/XIVITADalamudPlugins/",
         "Discord|https://discord.gg/ffxivita",
     ]),
-    header_links="Sito Ufficiale|https://ffxivita.it, Directory Plugin|https://ffxivita.github.io/XIVITADalamudPlugins/"
+    header_links="Sito Ufficiale|https://ffxivita.it, Directory Plugin|https://ffxivita.github.io/XIVITADalamudPlugins/",
+    github_url="https://github.com/ffxivita/docker-dalamud/blob/main/docs/"
 )
