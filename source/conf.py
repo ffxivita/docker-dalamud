@@ -34,6 +34,8 @@ html_static_path = ['_static']
 html_theme_options = dict(
     project_name="XIVITA Dalamud Docker",
     logo_alt="FFXIVITA",
+    logo="img/ffxivita.svg",
+    logo_width=45,
     logo_url="/",
     footer_links=",".join([
         "FFXIVITA|https://ffxivita.it/",
