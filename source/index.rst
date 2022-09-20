@@ -65,12 +65,3 @@ di .NET verrà incrementata quando sarà supportata.
 .. toctree::
    :maxdepth: 2
    :titlesonly:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
