@@ -18,8 +18,8 @@ e ambienti CI/CD, anche se funziona in ogni ambiente.
 
 ..  toctree::
         :titlesonly:
-        :maxdepth: 1
+        :maxdepth: 2
 
         requisiti
-        uso
+        tag/index
         updates
