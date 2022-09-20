@@ -15,11 +15,7 @@ Il target primario di questa immagine è per i `development
 containers <https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers>`__
 e ambienti CI/CD, anche se funziona in ogni ambiente.
 
-
 .. toctree::
-   :maxdepth: 2
+   :glob:
    :titlesonly:
-   index
-   requisiti
-   uso
-   updates
+   *
