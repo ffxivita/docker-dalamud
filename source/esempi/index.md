@@ -7,6 +7,7 @@ In questa sezione sono racchiusi alcuni esempi di utilizzo dell'ambiente di svil
 maxdepth: 2
 titlesonly:
 ---
-devcontainer
-csproj
+code/dockerfile
+code/dockerjson
+code/csproj
 ```

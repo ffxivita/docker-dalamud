@@ -22,5 +22,5 @@ e ambienti CI/CD, anche se funziona in ogni ambiente.
 
         requisiti
         tag/index
-        esempi/index
+        esempi/devcontainer/index
         updates
