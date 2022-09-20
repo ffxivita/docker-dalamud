@@ -33,6 +33,7 @@ html_theme_options = dict(
     footer_links=",".join([
         "FFXIVITA|https://ffxivita.it/",
         "Lista Plugin,|https://ffxivita.github.io/XIVITADalamudPlugins/",
-        "Discord|https://discord.gg/ffxivita"
-    ])
+        "Discord|https://discord.gg/ffxivita",
+    ]),
+    header_links="Sito Ufficiale|https://ffxivita.it, Directory Plugin|https://ffxivita.github.io/XIVITADalamudPlugins/"
 )
