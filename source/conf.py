@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'XIVITA Docker Dalamud'
-copyright = '2022, XIVITA'
+copyright = '2022, FFXIVITA'
 author = 'XIVITA'
 release = '1.0'
 
@@ -38,3 +38,13 @@ html_theme_options = dict(
     header_links="Sito Ufficiale|https://ffxivita.it, Directory Plugin|https://ffxivita.github.io/XIVITADalamudPlugins/",
     github_url="https://github.com/ffxivita/docker-dalamud/blob/main/source/"
 )
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
+master_doc = 'index'
+exclude_patterns = ['build', 'Thumbs.db', '.DS_Store', 'requirements.txt']
+today_fmt = '%d-%m-%Y %H:%M'
+gettext_uuid = True
+gettext_compact = False
