@@ -19,5 +19,5 @@ Questo dockerfile è preso da un plugin esistente di xivita ed è utilizzato per
     # Clona il repository dentro /workspaces (sovvrascrive se già presente).
     WORKDIR /workspaces
     
-    RUN git clone https://github.com/DarkArtek/XIVITASanctuary.git
+    RUN git clone https://github.com/ffxivita/testplugin.git
 ```
