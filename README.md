@@ -6,7 +6,7 @@ Il target primario di questa immagine è per i [development containers](https://
 ## Pre-Requisiti
 Per compilare il vostro progetto che ha Dalamud dentro ad un container, dovete perforza usare  `DalamudLibPath` e avere il seguente snippet di codice dentro il vostro file csproj:
 
-```
+```xml
 <PropertyGroup Condition="'$(OS)' != 'Windows_NT'">
   <DalamudLibPath>$(DALAMUD_HOME)/</DalamudLibPath>
   <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
