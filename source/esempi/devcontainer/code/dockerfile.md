@@ -4,7 +4,7 @@ Questo dockerfile è preso da un plugin esistente di xivita ed è utilizzato per
 
 ``` dockerfile
     # Immagine da usare
-    FROM  ghcr.io/ffxivita/docker-dalamud:latest
+    FROM  ghcr.io/ffxivita/docker-dalamud:latest@sha256:386ecbf468eee408a2836208a285c6f30027f31c55db2a191d44a28eb1b27131
     
     # Variabili d'Ambiente
     ENV DOTNET_CLI_TELEMETRY_OPTOUT=1
